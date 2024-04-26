@@ -12,3 +12,33 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+header {
+    background-color: #1f2937;
+
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
