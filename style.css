@@ -12,29 +12,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-header {
-    background-color: #1f2937;
-
-    display: flex;
-    padding: 14px;
-    justify-content: space-between;
-    align-items: center;
+.padding {
+    padding: 18px;
+    padding-left: 81px;
+    padding-right: 81px;
 }
 
-ul {
-    display: flex;
-    gap: 18px;
-}
-
-li {
-    list-style: none;
-}
-
-li a {
-    text-decoration: none;
-}
-
-.dark-background {
+.dark {
     background-color: #1f2937;
 }
 
@@ -56,8 +40,15 @@ li a {
 }
 
 .button {
+    width: 130px;
+    height: 35px;
+
     background-color: #3882f6;
     color: white;
+
+    border-radius: 7px;
+    border: none;
+    margin-top: 12px;
 }
 
 .information {
@@ -66,12 +57,8 @@ li a {
     color: #1f2937;
 }
 
-.section {
+.flex {
     display: flex;
-}
-
-.hero {
-    background-color: #1f2937;
 }
 
 .quote-background {
@@ -84,7 +71,41 @@ li a {
     color: #1f2937;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.hero {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.hero-text {
+    flex-direction: column;
+    width: 500px;
+}
+
+.image {
+    justify-content: center;
+    flex: 1;
+}
 
 
 footer {
